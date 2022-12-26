@@ -3,8 +3,8 @@ select
     , orderid as order_id
     , paymentmethod as payment_method
     , status
-    , amount
-    , created as date_created
-    , _batched_at as date_batched
+    , amount / 100 as amount
+    , created as created_at
+
 
 from raw.stripe.payment
