@@ -16,4 +16,4 @@ select
     , L_SHIPMODE as ship_mode
     , L_COMMENT as comment
 
-from snowflake_sample_data.tpch_sf1.lineitem
+from {{ref('src_line_items')}}
