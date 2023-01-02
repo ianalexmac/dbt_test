@@ -12,4 +12,6 @@ orders
 
 
 
-*** logs file in dir orders. wtf
+
+
+*** logs/dbt.log file in  models/staging/orders      wtf     deleted
